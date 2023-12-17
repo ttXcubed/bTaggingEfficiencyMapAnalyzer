@@ -1,0 +1,358 @@
+Executable = BTaggingEfficiencies_executable_BTaggingEfficiencyMapAnalyzer.sh
+Should_Transfer_Files = NO
+Getenv = True
+Requirements = ( OpSysAndVer == "CentOS7" )
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_41_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_41_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_41_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_41_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/dy_ht_800_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_800_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_800_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_800_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_7_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_7_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_7_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_7_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_27_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_27_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_27_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_27_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/dy_ht_200_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_200_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_200_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_200_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_10_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_10_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_10_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_10_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_43_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_43_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_43_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_43_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_25_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_25_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_25_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_25_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_38_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_38_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_38_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_38_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_11_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_11_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_11_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_11_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_21_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_21_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_21_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_21_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_12_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_12_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_12_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_12_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_30_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_30_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_30_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_30_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_32_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_32_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_32_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_32_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/dy_ht_inf_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_inf_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_inf_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_inf_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_29_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_29_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_29_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_29_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_24_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_24_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_24_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_24_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_17_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_17_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_17_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_17_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_35_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_35_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_35_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_35_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_31_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_31_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_31_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_31_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/ttWJets_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttWJets_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttWJets_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttWJets_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_15_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_15_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_15_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_15_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_23_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_23_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_23_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_23_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_36_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_36_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_36_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_36_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_3_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_3_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_3_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_3_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_19_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_19_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_19_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_19_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/dy_ht_1200_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_1200_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_1200_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_1200_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_16_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_16_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_16_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_16_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_39_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_39_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_39_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_39_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_42_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_42_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_42_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_42_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_9_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_9_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_9_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_9_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/dy_ht_2500_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_2500_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_2500_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_2500_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/ttH_HTobb_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttH_HTobb_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttH_HTobb_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttH_HTobb_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_5_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_5_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_5_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_5_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_22_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_22_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_22_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_22_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/ttH_HToNonbb_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttH_HToNonbb_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttH_HToNonbb_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttH_HToNonbb_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_34_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_34_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_34_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_34_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_14_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_14_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_14_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_14_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_20_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_20_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_20_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_20_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_8_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_8_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_8_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_8_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_40_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_40_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_40_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_40_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_4_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_4_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_4_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_4_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_13_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_13_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_13_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_13_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_26_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_26_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_26_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_26_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_44_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_44_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_44_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_44_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_33_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_33_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_33_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_33_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_6_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_6_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_6_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_6_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_28_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_28_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_28_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_28_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_18_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_18_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_18_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_18_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/ttZJets_MC2018_ntuplizer_2_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttZJets_MC2018_ntuplizer_2_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttZJets_MC2018_ntuplizer_2_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttZJets_MC2018_ntuplizer_2_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/dy_ht_400_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_400_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_400_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_400_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_2_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_2_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_2_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_2_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/tt_dilepton_MC2018_ntuplizer_37_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_37_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_37_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_tt_dilepton_MC2018_ntuplizer_37_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/ttZJets_MC2018_ntuplizer_3_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttZJets_MC2018_ntuplizer_3_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttZJets_MC2018_ntuplizer_3_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttZJets_MC2018_ntuplizer_3_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/dy_ht_600_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_600_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_600_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_600_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/dy_ht_100_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_100_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_100_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_dy_ht_100_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/ttZJets_MC2018_ntuplizer_1_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttZJets_MC2018_ntuplizer_1_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttZJets_MC2018_ntuplizer_1_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttZJets_MC2018_ntuplizer_1_merged.$(Process).log
+queue
+
+arguments = "--input_file /nfs/dust/cms/user/gmilella/ttX_ntuplizer/bkg_2018_hotvr/merged/ttWJets_MC2018_ntuplizer_2_merged.root --output_dir /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/BTaggingEfficiencyMapAnalyzer_output --year 2018" 
+Output = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttWJets_MC2018_ntuplizer_2_merged.$(Process).out
+Error = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttWJets_MC2018_ntuplizer_2_merged.$(Process).err
+Log = /nfs/dust/cms/user/gmilella/BTaggingEfficiencyMap/condor_jobs_submission/log/log_ttWJets_MC2018_ntuplizer_2_merged.$(Process).log
+queue
